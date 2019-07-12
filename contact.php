@@ -7,7 +7,11 @@
 $from = 'Kinetico Sklep osmoza <emailp@email.pl>';
 
 // an email address that will receive the email with the output of the form
+<<<<<<< HEAD
 $sendTo = 'Formularz Kinetico <email@email.pl>';
+=======
+$sendTo = 'Formularz Kinetico <emailp@email.pl>';
+>>>>>>> 6a2a240e20d3ec08fe936879b6d8aa0a296fc6ec
 
 // subject of the email
 $subject = 'Nowa wiadomość z formularza Kinetico - Sklep osmoza';
