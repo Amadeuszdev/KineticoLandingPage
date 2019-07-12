@@ -418,7 +418,7 @@
               <h2 class="h2 mb-4">Formularz kontaktowy</h2>
             </div>
 
-            <form id="contact-form" method="post" action="contact.php" role="form">
+            <form id="contact-form" method="post" action="contact.php">
               <div class="messages"></div>
 
               <div class="controls">
@@ -451,7 +451,7 @@
                   <div class="col-md-12">
                     <div class="form-group">
                       <label for="form_need">Temat wiadomości</label>
-                      <select id="form_need" name="need" class="form-control" required="required" data-error="Wybierz temat">
+                      <select id="form_need" name="need" class="form-control" data-error="Wybierz temat">
                         <option value="Zmiękczacz domowy">Zmiękczacz domowy</option>
                         <option value="Pomoc Techniczna">Pomoc techniczna</option>
                         <option value="Inny Temat">Inny Temat</option>
@@ -489,9 +489,10 @@
 
           </div>
         </div>
+      </div>
     </section>
 
-    <section id="map" class="contact">
+    <div id="map" class="contact">
 
       <div class="col-12 p-0">
         <iframe
@@ -499,8 +500,8 @@
           class="gmap" allowfullscreen>
         </iframe>
       </div>
+    </div>
 
-    </section>
 
     <!-- Footer -->
 
