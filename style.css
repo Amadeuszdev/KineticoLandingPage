@@ -31,7 +31,14 @@ html {
 /* Navbar */
 .bg-theme {
   background-color: #4887bf;
-  padding-right: 1rem;
+}
+
+.container-navbar {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1920px;
+  display: flex;
 }
 
 .container-nav {
@@ -41,6 +48,7 @@ html {
   padding-left: 0;
   margin-right: auto;
   margin-left: auto;
+  height: 51px;
 }
 
 .container-nav i {
@@ -51,7 +59,7 @@ html {
   font-size: 1rem;
   text-decoration: none;
   color: #ffffff;
-  white-space: nowrap;
+  max-width: 315px;
 }
 
 .navbar-brand img {
@@ -62,10 +70,6 @@ html {
   box-shadow: 0 4px 1px rgba(0, 0, 0, .090);
 }
 
-.navbar-collapse {
-  justify-content: flex-end;
-}
-
 .navcontact {
   color: white;
   font-size: 2rem;
@@ -73,11 +77,16 @@ html {
   margin: auto;
 }
 
-.nav-item a {
+.nav-link a {
   color: black;
 }
 
-.nav-item a:hover {
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
   color: #4887bf;
 }
 
@@ -427,6 +436,10 @@ html {
     margin-top: 1.5rem;
   }
 
+  .profesionalcontact {
+    max-width: 100%;
+  }
+
   .navbar {
     padding: 1rem 0;
   }
@@ -466,5 +479,9 @@ html {
   .container-benefit {
     padding: 1% 0 0 !important;
     max-width: 1920px;
+  }
+
+  .bg-theme {
+    background-color: #4887bf;
   }
 }

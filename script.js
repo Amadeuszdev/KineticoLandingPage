@@ -1,4 +1,4 @@
-  var fixedMenu = $('#navbarfull').height();
+  var fixedMenu = $('.navbar').height();
 
   $('.autoclose').on('click', function() {
     $('.navbar-collapse').collapse('hide');

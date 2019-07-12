@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Kinetico Sklep osmoza <sklep@osmoza.pl>';
+$from = 'Kinetico Sklep osmoza <emailp@email.pl>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Formularz Kinetico <a.weronski@globalwater.pl>';
+$sendTo = 'Formularz Kinetico <email@email.pl>';
 
 // subject of the email
 $subject = 'Nowa wiadomość z formularza Kinetico - Sklep osmoza';
